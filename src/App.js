@@ -16,8 +16,10 @@ setSearch(e.target.value);
     <input type="text" onChange={handleChange} placeholder='Search users...' />
     <table>
       <tr>
-
-
+<td>First Name</td>
+<td>Last Name</td>
+<td>Email</td>
+<td>Phone</td>
       </tr>
 
 {data.filter((item)=>{
